@@ -1,5 +1,5 @@
 //
-//  AsyncLoadAvatar.swift
+//  ImageContent.swift
 //  
 //
 //  Created by Ivan Konishchev on 13.12.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 @available(iOS 15.0, *)
-public struct  AsyncLoadAvatar: View {
+public struct  ImageContent: View {
 
     private var url: String
     private var size: CGFloat
@@ -32,3 +32,5 @@ public struct  AsyncLoadAvatar: View {
         }
     }
 }
+
+

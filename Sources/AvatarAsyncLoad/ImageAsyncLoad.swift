@@ -1,5 +1,5 @@
 //
-//  AvatarAsyncLoad.swift
+//  ImageAsyncLoad.swift
 //  
 //
 //  Created by Ivan Konishchev on 13.12.2022.
@@ -10,11 +10,11 @@ import Foundation
 import ViewModifiers
 
 @available(iOS 15.0, *)
-public struct  AvatarAsyncLoad: View {
-    var content: AsyncLoadAvatar
+public struct  ImageAsyncLoad: View {
+    var content: ImageContent
     @State var isRotated: Bool = false
     
-   public init(@ViewBuilder content: () -> AsyncLoadAvatar) {
+    public init( @ViewBuilder content: () -> ImageContent) {
         self.content = content()
     }
     
