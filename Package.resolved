@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "viewmodifiers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ivanKispaj/ViewModifiers.git",
+      "state" : {
+        "revision" : "c94c633dad9f392d9ad85c7481b6c29a557c6a64",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
